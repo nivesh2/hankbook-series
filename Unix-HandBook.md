@@ -80,10 +80,11 @@ mv [options] sources target
 	- Switch to binary mode
 - ```ascii```
 	- Switch to ASCII mode. ASCII mode is the default mode; use it for transferring text files.
->Ascii mode transfers files as 'text'.
->Examples of ascii files would be .txt, .asp, .html, and .php files...
->Binary mode transfers files as raw data.
->Examples of binary files would be .wav, .jpg, .gif, and mp3 files...
+	
+	>Ascii mode transfers files as 'text'.
+	>Examples of ascii files would be .txt, .asp, .html, and .php files...
+	>Binary mode transfers files as raw data.
+	>Examples of binary files would be .wav, .jpg, .gif, and mp3 files...
 
 
 ## Shell scripts
