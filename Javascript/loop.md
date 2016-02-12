@@ -5,8 +5,8 @@
 var student = ['Harry','Bill','Mark','Steve','Jhon'];
 ```
 
-below are 3 loops, but we prefer map and reduce
-i is defined in block scope. So, one cann't access them outside loop.
+Below are 3 loops, but we prefer map and reduce.
+variable i is defined in block scope. So, one can not access them outside loop.
 
 ```js
 for(let i = 0; i < student.length; i++){
