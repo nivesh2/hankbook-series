@@ -81,6 +81,10 @@ mv [options] sources target
 - ```ascii```
 	- Switch to ASCII mode. ASCII mode is the default mode; use it for transferring text files.
 
+## SCP
+`scp -r  -i ./privateKey.rsa username@IP_ADDRESS:/pathtodump/ /localpath/`
+-r added for recursive fetching of all the folders
+
 **Note:**
 
 >Ascii mode transfers files as 'text'.Examples of ascii files would be .txt, .asp, .html, and .php files...
